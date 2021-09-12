@@ -1,0 +1,326 @@
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+     :root {
+        --tw-ring-inset: var(--tw-empty, );
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(47, 128, 237, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+    }
+    
+    * {
+        background-color: #f2efe4;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    
+    img {
+        margin-left: 580px;
+        margin-top: -60px;
+        height: 190px;
+        width: 190px;
+    }
+    
+    .the_main {
+        background-color: #ffffff;
+        width: 546px;
+        height: 158px;
+        margin-left: 402px;
+        margin-top: -0px;
+        border-radius: 60px;
+        font-weight: 600;
+        font-size: 1.25rem;
+        border-radius: 20px;
+        box-sizing: border-box;
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    }
+    
+    .the_name {
+        margin-left: 80px;
+        background-color: #ffffff;
+        display: block;
+        border: 0px solid transparent;
+        width: fit-content;
+        text-decoration: none;
+    }
+    
+    .the_name:visited {
+        color: black;
+    }
+    
+    #user_name {
+        display: flex;
+    }
+    
+    span {
+        font-weight: normal;
+        background-color: initial;
+        font-size: .8em;
+    }
+    
+    .the_follow {
+        width: fit-content;
+    }
+    
+    #the_follow1 {
+        font-weight: normal;
+        font-family: 'Nunito Light', sans-serif;
+        margin-top: -70px;
+        margin-left: 563px;
+        background-color: transparent;
+        width: fit-content;
+    }
+    
+    #the_follow2 {
+        font-weight: normal;
+        font-family: 'Nunito Light', sans-serif;
+        margin-top: -24px;
+        margin-left: 655px;
+        background-color: transparent;
+        width: fit-content;
+    }
+    
+    #the_num {
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    .Avatar1 {
+        background-color: transparent;
+        width: 4.9rem;
+        height: 5rem;
+        margin-left: 455px;
+        margin-top: -80px;
+        display: flex;
+    }
+    
+    #p1 {
+        width: fit-content;
+        color: #9c9a92;
+        background-color: transparent;
+        margin-top: 95px;
+        margin-left: 570px;
+        font-size: .89em;
+        font-weight: 600;
+    }
+    
+    #p2 {
+        width: fit-content;
+        color: #9c9a92;
+        background-color: transparent;
+        margin-top: -10px;
+        margin-left: 558px;
+        font-size: .89em;
+        font-weight: 600;
+    }
+    
+    #already {
+        visibility: hidden;
+    }
+    
+    #a22 {
+        visibility: hidden;
+    }
+    
+    #a222 {
+        visibility: hidden;
+    }
+    
+    #p11 {
+        visibility: hidden;
+    }
+    
+    #google_play {
+        background-color: transparent;
+        height: 2.5rem;
+        margin-top: 10px;
+        margin-left: 638px;
+    }
+    
+    #Apple_Store {
+        background-color: transparent;
+        height: 2.5rem;
+        margin-top: -47px;
+        margin-left: 493px;
+        display: flex;
+    }
+    
+    #open_app {
+        visibility: hidden;
+    }
+    
+    #a_footer {
+        font-size: 2em;
+        margin-top: 60px;
+        display: flex;
+        margin-left: 525px;
+    }
+    
+    @media(max-width: 992px) {
+        img {
+            margin-left: 50px;
+            margin-top: -170px;
+            height: 500px;
+            width: 500px;
+        }
+        .the_main {
+            background-color: #ffffff;
+            width: 970px;
+            height: 400px;
+            margin-left: 5px;
+            margin-top: -0px;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 4rem;
+            border-radius: 50px;
+            box-sizing: border-box;
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+            --tw-shadow: 0 1px 2px 0 rgba(114, 114, 114, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+        .the_name {
+            margin-left: 170px;
+            background-color: #ffffff;
+            display: block;
+            border: 0px solid transparent;
+            width: fit-content;
+            text-decoration: none;
+        }
+        .the_name:visited {
+            color: black;
+        }
+        #user_name {
+            display: flex;
+        }
+        span {
+            font-weight: normal;
+            background-color: initial;
+            font-size: .8em;
+        }
+        .the_follow {
+            width: fit-content;
+        }
+        #the_follow1 {
+            font-weight: normal;
+            font-family: 'Nunito Light', sans-serif;
+            margin-top: -130px;
+            margin-left: 410px;
+            background-color: transparent;
+            width: fit-content;
+            font-size: 3rem;
+        }
+        #the_follow2 {
+            font-weight: normal;
+            font-family: 'Nunito Light', sans-serif;
+            margin-top: -75px;
+            margin-left: 690px;
+            background-color: transparent;
+            width: fit-content;
+            font-size: 3rem;
+        }
+        #the_num {
+            font-size: large;
+            font-weight: bold;
+            font-size: 3.5rem;
+            margin-left: -60px;
+        }
+        .Avatar1 {
+            background-color: transparent;
+            width: 16rem;
+            height: 16rem;
+            margin-left: 50px;
+            margin-top: -280px;
+            display: flex;
+        }
+        #p1 {
+            color: #9c9a92;
+            background-color: transparent;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 3rem;
+        }
+        #p2 {
+            font-size: 3rem;
+            display: block;
+            color: #9c9a92;
+            background-color: transparent;
+            margin-top: -10px;
+            margin-left: 558px;
+            font-size: .89em;
+            font-weight: 600;
+        }
+        #google_play {
+            background-color: transparent;
+            height: 2.5rem;
+            margin-top: 10px;
+            width: 500px;
+            height: 512px;
+            padding-left: -60px;
+            display: flex;
+            margin-left: 520px;
+            margin-top: -330px;
+        }
+        #Apple_Store {
+            background-color: transparent;
+            height: 2.5rem;
+            margin-top: -470px;
+            margin-left: 50px;
+            display: flex;
+            width: 450px;
+            height: 420px;
+        }
+        #for_the_main {
+            visibility: hidden;
+        }
+        #already {
+            visibility: visible;
+            background-color: transparent;
+            font-size: 2.8rem;
+            margin-top: 180px;
+            margin-left: 270px;
+            display: flex;
+            color: #a5a4a2;
+            font-family: Nunito, sans-serif;
+        }
+        #a22 {
+            visibility: visible;
+            border: 1px solid transparent;
+            background-color: #dad9d8;
+            width: 540px;
+            height: 80px;
+            text-align: justify;
+            font-size: 2.8rem;
+            display: flex;
+            border-radius: 50px;
+            padding-top: 20px;
+            padding-left: 50px;
+            margin-top: 60px;
+            margin-left: 210px;
+            color: #463f2d;
+            font-weight: bold;
+        }
+        #a222 {
+            visibility: visible;
+            font-size: 2.8rem;
+            display: flex;
+            padding-top: 20px;
+            padding-left: 50px;
+            margin-top: 60px;
+            margin-left: 310px;
+            color: rgb(44, 196, 44);
+            font-weight: bold;
+        }
+        #a_footer {
+            visibility: visible;
+            font-size: 4rem;
+            display: flex;
+            padding-top: 20px;
+            padding-left: 50px;
+            margin-top: -95px;
+            margin-left: 180px;
+            color: #463f2d;
+            font-weight: bold;
+        }
+        #store {
+            margin-left: -30px;
+        }
+    }
